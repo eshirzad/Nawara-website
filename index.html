@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nawara Labs | Capture Missed Calls, Bookings, and Orders</title>
+  <meta name="description" content="Nawara Labs helps restaurants, clinics, and service businesses capture missed calls, recover lost bookings and orders, and turn inbound demand into real revenue with a simple response system.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand brand-lockup" href="index.html" aria-label="Nawara Labs home">
+        <img class="brand-logo" src="assets/only-logo-white.png?v=1" alt="Nawara Labs logo">
+        <span class="brand-name">Nawara Labs</span>
+      </a>
+      <nav aria-label="Main navigation" class="site-nav">
+        <a href="#industries">Industries</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#proof">Proof</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-intro">Practical Systems for Local Businesses</p>
+          <h1 class="hero-title">Capture Missed Calls, Bookings, and Orders Before They Turn Into Lost Revenue</h1>
+          <p class="hero-lead">Nawara Labs helps restaurants, clinics, and service businesses answer faster, capture demand, and keep real opportunities moving.</p>
+          <div class="cta-actions hero-actions">
+            <a class="btn btn-primary" href="#industries">See How It Works</a>
+            <a class="btn" href="#contact">Check If This Fits</a>
+          </div>
+        </div>
+        <div class="hero-card card">
+          <p class="card-kicker">What the system does</p>
+          <ul class="compact-list product-summary">
+            <li>Answers missed calls fast</li>
+            <li>Captures who called and why</li>
+            <li>Keeps bookings, orders, and follow-up moving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="industries" class="section-alt reveal-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">Industry Fit</p>
+          <h2>See how this works for your business</h2>
+          <p>Switch between business types to see the before, the after, and the kind of opportunity that gets saved.</p>
+        </div>
+        <div class="business-toggle card" data-business-toggle>
+          <div class="toggle-buttons" role="tablist" aria-label="Business type examples">
+            <button class="toggle-btn is-active" type="button" role="tab" aria-selected="true" aria-controls="business-restaurant" id="tab-restaurant" data-business="restaurant">Restaurant</button>
+            <button class="toggle-btn" type="button" role="tab" aria-selected="false" aria-controls="business-clinic" id="tab-clinic" data-business="clinic">Clinic</button>
+            <button class="toggle-btn" type="button" role="tab" aria-selected="false" aria-controls="business-service" id="tab-service" data-business="service">Service Business</button>
+          </div>
+          <div class="toggle-panels">
+            <section class="toggle-panel is-active" id="business-restaurant" role="tabpanel" aria-labelledby="tab-restaurant" data-panel="restaurant">
+              <div class="industry-grid">
+                <div class="industry-column">
+                  <p class="compare-label">Before</p>
+                  <ul class="compact-list panel-list">
+                    <li>Rush-hour calls go unanswered</li>
+                    <li>Orders and reservations drop off</li>
+                  </ul>
+                </div>
+                <div class="industry-column">
+                  <p class="compare-label">After</p>
+                  <ul class="compact-list panel-list">
+                    <li>Calls get handled right away</li>
+                    <li>Orders and reservations keep moving</li>
+                  </ul>
+                </div>
+                <div class="industry-outcome">
+                  <p class="panel-kicker">Example Outcome</p>
+                  <h3>One missed dinner call can become a real reservation or takeout order</h3>
+                </div>
+              </div>
+            </section>
+
+            <section class="toggle-panel" id="business-clinic" role="tabpanel" aria-labelledby="tab-clinic" data-panel="clinic" hidden>
+              <div class="industry-grid">
+                <div class="industry-column">
+                  <p class="compare-label">Before</p>
+                  <ul class="compact-list panel-list">
+                    <li>Front desk misses patient calls</li>
+                    <li>Appointment requests stall</li>
+                  </ul>
+                </div>
+                <div class="industry-column">
+                  <p class="compare-label">After</p>
+                  <ul class="compact-list panel-list">
+                    <li>Requests are captured immediately</li>
+                    <li>Patients get a next step fast</li>
+                  </ul>
+                </div>
+                <div class="industry-outcome">
+                  <p class="panel-kicker">Example Outcome</p>
+                  <h3>One handled inquiry can turn into a booked appointment</h3>
+                </div>
+              </div>
+            </section>
+
+            <section class="toggle-panel" id="business-service" role="tabpanel" aria-labelledby="tab-service" data-panel="service" hidden>
+              <div class="industry-grid">
+                <div class="industry-column">
+                  <p class="compare-label">Before</p>
+                  <ul class="compact-list panel-list">
+                    <li>Calls come in while you are on the job</li>
+                    <li>Estimate requests fade out</li>
+                  </ul>
+                </div>
+                <div class="industry-column">
+                  <p class="compare-label">After</p>
+                  <ul class="compact-list panel-list">
+                    <li>Lead details are captured fast</li>
+                    <li>Follow-up stays clear</li>
+                  </ul>
+                </div>
+                <div class="industry-outcome">
+                  <p class="panel-kicker">Example Outcome</p>
+                  <h3>One answered call can become a qualified lead worth hundreds or more</h3>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="reveal-section calculator-section">
+      <div class="container calculator-grid">
+        <div class="section-heading narrow">
+          <p class="section-label">Missed Revenue Calculator</p>
+          <h2>See what missed calls may be costing each month</h2>
+          <p>Use your own numbers. This is an example tool for estimating missed revenue from inbound demand.</p>
+        </div>
+        <div class="calculator card">
+          <div class="calculator-inputs">
+            <label class="field">
+              <span>Average order or job value</span>
+              <input id="avg-value" type="number" min="0" step="50" value="300">
+            </label>
+            <label class="field">
+              <span>Missed calls per day</span>
+              <input id="missed-calls" type="number" min="0" step="1" value="5">
+            </label>
+            <label class="field">
+              <span>Business days per month</span>
+              <input id="business-days" type="number" min="1" step="1" value="22">
+            </label>
+          </div>
+          <div class="calculator-results">
+            <div class="result-card">
+              <p class="result-label">Estimated per day</p>
+              <strong id="daily-loss">$1,500</strong>
+            </div>
+            <div class="result-card result-card-accent">
+              <p class="result-label">Estimated per month</p>
+              <strong id="monthly-loss">$33,000</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="reveal-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">How It Works</p>
+          <h2>Simple and direct</h2>
+        </div>
+        <div class="flow-card card">
+          <div class="flow-step">
+            <span class="flow-label">Call</span>
+            <p>Customer reaches out</p>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">&rarr;</div>
+          <div class="flow-step">
+            <span class="flow-label">Response</span>
+            <p>They get an immediate response</p>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">&rarr;</div>
+          <div class="flow-step">
+            <span class="flow-label">Outcome</span>
+            <p>They book, order, or get what they need</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="live-system" class="reveal-section live-system-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">Live System</p>
+          <h2>What the system is doing in real time</h2>
+        </div>
+        <div class="live-system-grid">
+          <article class="card system-card">
+            <p class="system-kicker">Incoming Call</p>
+            <h3>Customer reaches out</h3>
+            <p>New demand comes in.</p>
+          </article>
+          <article class="card system-card system-card-accent">
+            <p class="system-kicker">Response</p>
+            <h3>The system responds immediately</h3>
+            <p>Caller details get captured.</p>
+          </article>
+          <article class="card system-card">
+            <p class="system-kicker">Outcome</p>
+            <h3>The opportunity keeps moving</h3>
+            <p>Booking, order, or follow-up.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof" class="reveal-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">Proof</p>
+          <h2>What gets captured from every call</h2>
+        </div>
+        <div class="cards cards-2">
+          <article class="card">
+            <h3>Caller name</h3>
+            <p>Who reached out</p>
+          </article>
+          <article class="card">
+            <h3>Reason for call</h3>
+            <p>Why they called</p>
+          </article>
+          <article class="card">
+            <h3>Requested service or order</h3>
+            <p>What they wanted</p>
+          </article>
+          <article class="card">
+            <h3>Next step</h3>
+            <p>Booked, replied, or follow-up</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="reveal-section benefits-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">Benefits</p>
+          <h2>What improves</h2>
+        </div>
+        <div class="cards cards-2">
+          <article class="card">
+            <h3>More bookings and orders</h3>
+            <ul class="compact-list">
+              <li>Faster response</li>
+              <li>More captured demand</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Less missed opportunity</h3>
+            <ul class="compact-list">
+              <li>Fewer dropped calls</li>
+              <li>Less lost follow-up</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Less pressure on staff</h3>
+            <ul class="compact-list">
+              <li>Fewer interruptions</li>
+              <li>Cleaner handoff</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Clearer customer flow</h3>
+            <ul class="compact-list">
+              <li>Simple next steps</li>
+              <li>Better visibility</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta-section reveal-section">
+      <div class="container">
+        <div class="cta-panel card">
+          <p class="section-label">Next Step</p>
+          <h2>See if this fits your business.</h2>
+          <p>We’ll look at your call flow, estimate the missed opportunity, and show you a simple next step.</p>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="tel:+10000000000">Talk It Through</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal-section">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Nawara Labs</p>
+        <p>Practical systems that help local businesses capture missed revenue.</p>
+      </div>
+      <div>
+        <p>Contact: hello@nawaralabs.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
