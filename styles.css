@@ -197,8 +197,11 @@ main section {
 .hero-note,
 .section-heading p,
 .card p,
+.card-note,
 .cta-panel p,
-.footer-inner p {
+.footer-inner p,
+.result-note,
+.form-note {
   margin: 0;
   color: var(--muted);
 }
@@ -327,6 +330,12 @@ main section {
   font-size: 1.45rem;
 }
 
+.card-note {
+  margin-top: 12px;
+  color: #d7e4e5;
+  font-size: 0.95rem;
+}
+
 .solution-card,
 .service-card {
   position: relative;
@@ -396,6 +405,11 @@ main section {
   color: var(--text);
 }
 
+.result-note {
+  margin-top: 12px;
+  color: #d7e4e5;
+}
+
 .result-card-accent {
   border-color: rgba(45, 212, 191, 0.34);
   background: linear-gradient(180deg, rgba(45, 212, 191, 0.12), rgba(19, 25, 27, 0.98));
@@ -434,6 +448,10 @@ main section {
 .contact-form .btn {
   width: 100%;
   margin-top: 8px;
+}
+
+.form-note {
+  font-size: 0.95rem;
 }
 
 .site-footer {
