@@ -522,6 +522,10 @@ main section {
 }
 
 @media (max-width: 700px) {
+  .site-header {
+    position: static;
+  }
+
   .container {
     width: min(100% - 24px, 1120px);
   }
